@@ -57,7 +57,56 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    
+    <div class="container">
+      <div class="row">
+        <!-- humidity analysis content-->
+        <div class="col-md-8">
+          <article class= "description-content">
+        
+            <h1 class= "description-header"> City Lat vs Cloudiness (%)</h1>
+            <hr class="description-hr">
+            <!--- Add image, then content, & then format-->
+            <a href="images/Fig3.png">
+            <img src="images/Fig3.png" title="Plot for City Lat vs. Cloudiness (%)"
+            class="img-responsive">
+            </a>
+          
+            <p>
+              This scatter plot shows no descernable relationship between City Lat. and Cloudiness. <br>
+              I want to say that this plot seems like its a mixture of mostly linear and some non-linear correlations. 
+              There is a somewhat of a pattern to this plot. <br> 
+              An interesting point point to share though is that no cities sit on the 60% cloudiness level. <br>
+              Another note: there seems to be more cities that are concentrated around the extremums. <br> 
+            </p>
+          </article>
+        </div>
+        
+        <!--Thumbnails vv-->
+        <div class="col-md-4">
+          
+         <section id="imageNav-area">
+         <div class="imageNav-content"> 
+           <h2 class = "imageNav-header">Visualizations</h2>
+           <hr> 
+           <div id="images">
+            <a href="temp.html">
+               <img src="images/Fig1.png" class="imageNav-photo" title="Latitude vs. Temperature">
+             </a> 
+           <a href="humidity.html"> 
+             <img src="images/Fig2.png" class="imageNav-photo"  title="Latitude vs. Humidity (%)">
+           </a> 
+             <a href="cloudiness.html"> 
+           <img src="images/Fig3.png" class="imageNav-photo" title="Latitude vs. Cloudiness (%)">
+           </a> 
+           <a href="wind.html">
+             <img src="images/Fig4.png" class="imageNav-photo" title="Latiude vs. Wind Speed (mph)">
+           </a> 
+            </div> 
+          </div>
+         </section> 
+        </div>
+      </div>
+    </div>
     <!-- End of container -->
 
     <!-- Start of footer -->

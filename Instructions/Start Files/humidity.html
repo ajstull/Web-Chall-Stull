@@ -57,7 +57,57 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   
+    <div class="container">
+      <div class="row">
+        <!-- humidity analysis content-->
+        <div class="col-md-8">
+          <article class= "description-content">
+        
+            <h1 class= "description-header"> City Lat vs Humidity (%) </h1>
+            <hr class="description-hr">
+            <!--- Add image, then content, & then format-->
+            <a href="images/Fig2.png">
+            <img src="images/Fig2.png" title="Plot for City Lat vs. Humidity (%)"
+            class="img-responsive">
+            </a>
+          
+            <p>
+              This scatter plot shows a weak negative non-linear correlation between City Lat. and Humidity. <br>
+              In the Plot, it is difficult establish a relationship as the plot doesn't have a distinct shape. <br>
+              But I can observe that cities closer to the equator tend to generally have higher humidity. There looks to be 
+              a skew to the right, as cities that are closer to the equartor on the negative side(-20-0), are more concentrated around 
+              the 100% humidity level. Cities with a lower positive Lat tend to be more spread about(0-20). <br>
+              I will note that there seems to be some outliers in the +60 to 80 degree range that rest at 0% humidity. <br>
+            </p>
+          </article>
+        </div>
+        
+        <!--Thumbnails vv-->
+        <div class="col-md-4">
+          
+         <section id="imageNav-area">
+         <div class="imageNav-content"> 
+           <h2 class = "imageNav-header">Visualizations</h2>
+           <hr> 
+           <div id="images">
+            <a href="temp.html">
+               <img src="images/Fig1.png" class="imageNav-photo" title="Latitude vs. Temperature">
+             </a> 
+           <a href="humidity.html"> 
+             <img src="images/Fig2.png" class="imageNav-photo"  title="Latitude vs. Humidity (%)">
+           </a> 
+             <a href="cloudiness.html"> 
+           <img src="images/Fig3.png" class="imageNav-photo" title="Latitude vs. Cloudiness (%)">
+           </a> 
+           <a href="wind.html">
+             <img src="images/Fig4.png" class="imageNav-photo" title="Latiude vs. Wind Speed (mph)">
+           </a> 
+            </div> 
+          </div>
+         </section> 
+        </div>
+      </div>
+    </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
